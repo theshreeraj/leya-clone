@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+      }
+      #bulb {
+        height: 150px;
+        width: 150px;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="bulb"></div>
+
+      <div>
+        <button onclick="bulbOn()">ON</button>
+        <button onclick="bulbOff()">OFF</button>
+      </div>
+    </div>
+
+    <script>
+      function bulbOn() {
+        document.getElementById("bulb").style.backgroundColor = "yellow";
+        document.getElementById("container").style.backgroundColor =
+          "whitesmoke";
+      }
+
+      function bulbOff() {
+        document.getElementById("bulb").style.backgroundColor = "gray";
+        document.getElementById("container").style.backgroundColor = "black";
+      }
+    </script>
+  </body>
+</html>

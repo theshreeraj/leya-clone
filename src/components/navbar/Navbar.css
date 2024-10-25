@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e8e8e9;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    
+}
+
+.logo{
+    width: 40px;
+}
+
+.logo> img{
+    width: 100%;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-menu-item {
+    text-decoration: none !important;
+    color: black;
+   outline: none;
+}
+
+.nav-cta{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+
+}
